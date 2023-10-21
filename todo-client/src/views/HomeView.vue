@@ -19,7 +19,7 @@ export default {
 
 <template>
   <main>
-    <h1>Home</h1>
+    <h1>Todo List</h1>
 
     <div v-if="userInfo != null">
       {{ userInfo.principal.attributes.email }}
